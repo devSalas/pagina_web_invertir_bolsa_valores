@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, TrendingUp } from "lucide-react"
+import Image from "next/image"
 
 export default function Hero() {
   return (
