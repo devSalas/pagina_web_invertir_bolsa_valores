@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold">₹</span>
               </div>
-              <span className="font-bold text-foreground">Investor Hub</span>
+              <span className="font-bold text-foreground">Invertir para el futuro</span>
             </div>
             <p className="text-sm text-foreground/60">Transformando inversores desde 2024</p>
           </div>
@@ -79,16 +79,27 @@ export default function Footer() {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-foreground/60">
             <p>&copy; 2026 Investor Hub. Todos los derechos reservados.</p>
+            
+            
             <div className="flex gap-6">
+              <a href="https://devsalas.com/" target="_blank" className="hover:text-primary transition">
+                Desarrollado por devsalas.com
+              </a>
+             
+            </div>
+            {/* <div className="flex gap-6">
               <a href="#" className="hover:text-primary transition">
                 Política de Privacidad
               </a>
               <a href="#" className="hover:text-primary transition">
                 Términos de Servicio
               </a>
-            </div>
+            </div> */}
+            
           </div>
+          
         </div>
+       
       </div>
     </footer>
   )

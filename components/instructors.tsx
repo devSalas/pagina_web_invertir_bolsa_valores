@@ -6,8 +6,9 @@ export default function Instructors() {
     {
       name: "Jorgehandre",
       specialty: "Créditos y Finanzas",
-      image: "/images/image.png",
+      image: "/images/jorgeandre.jpg",
       youtube: "Jorgehandre Créditos y Finanzas",
+      link_youtube:"https://www.youtube.com/channel/UCQS-pN8ISvJR-xLs8jmcVsA",
       description: "Experto en estrategias de crédito e inversión en mercados financieros",
     },
     {
@@ -15,6 +16,7 @@ export default function Instructors() {
       specialty: "Inversión y Estrategia",
       image: "/images/image.png",
       youtube: "Invertir para el Futuro",
+       link_youtube:"https://www.youtube.com/channel/UCfsJUCIO5UeihiG6075hRBw",
       description: "Especialista en análisis de valores y construcción de portafolios rentables",
     },
   ]
@@ -46,7 +48,8 @@ export default function Instructors() {
                   <p className="text-blue-100 font-semibold text-center mb-4">{instructor.specialty}</p>
                   <p className="text-white text-center text-sm mb-6">{instructor.description}</p>
                   <a
-                    href="#"
+                    href={instructor.link_youtube}
+                    target="_blank"
                     className="inline-flex items-center gap-2 bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

@@ -14,7 +14,7 @@ export default function Header() {
           <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-lg">₹</span>
           </div>
-          <span className="font-bold text-xl text-foreground">Investor Hub</span>
+          <span className="font-bold text-xl text-foreground">Invertir para el futuro</span>
         </div>
 
         {/* Desktop Menu */}
@@ -35,7 +35,17 @@ export default function Header() {
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
-        <Button className="hidden md:flex gap-2 bg-primary hover:bg-primary/90">Acceder Ahora</Button>
+        <a
+          href="https://wa.me/51927859435?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20tu%20servicio%20de%20desarrollo%20web."
+          target="_blank"
+          rel="noopener noreferrer"
+          
+        >
+          <Button className="hidden md:flex gap-2 bg-primary hover:bg-primary/90 cursor-pointer">
+            Acceder ahora
+          </Button>
+        </a>
+
       </nav>
 
       {/* Mobile Menu */}

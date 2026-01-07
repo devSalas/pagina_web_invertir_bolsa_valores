@@ -26,9 +26,19 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="gap-2 bg-primary hover:bg-primary/90 text-base">
+              {/*  <Button size="lg" className="gap-2 bg-primary hover:bg-primary/90 text-base">
                 Comienza Hoy <ArrowRight size={20} />
-              </Button>
+              </Button> */}
+              <a
+                href="https://wa.me/51927859435?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20tu%20servicio%20de%20desarrollo%20web."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" className="gap-2 bg-primary hover:bg-primary/90 text-base">
+                  Comienza Hoy <ArrowRight size={20} />
+                </Button>
+              </a>
+
               <Button size="lg" variant="outline" className="text-base bg-transparent">
                 Ver Programa
               </Button>
@@ -40,7 +50,7 @@ export default function Hero() {
                 <p className="text-sm text-foreground/60">Estudiantes activos</p>
               </div>
               <div>
-                <div className="text-2xl font-bold text-primary">8 semanas</div>
+                <div className="text-2xl font-bold text-primary">8 sesiónes</div>
                 <p className="text-sm text-foreground/60">Programa intensivo</p>
               </div>
               <div>
@@ -51,13 +61,13 @@ export default function Hero() {
           </div>
 
           {/* Right Visual */}
-          <div className="relative h-96 sm:h-[500px]">
+          <div className="relative  ">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl"></div>
             <div className="absolute top-8 right-8 w-48 h-48 bg-accent/10 rounded-full blur-3xl"></div>
             <div className="absolute -bottom-8 left-8 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
 
-            <div className="relative h-full flex items-center justify-center">
-              <div className="text-center">
+            <div className="relative h-full flex items-center justify-center overflow-hidden rounded-2xl border border-border shadow-lg ">
+              {/*  <div className="text-center">
                 <div className="inline-block p-8 bg-card rounded-2xl border border-border shadow-lg">
                   <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                     📈
@@ -66,7 +76,8 @@ export default function Hero() {
                     Empieza a invertir <br /> con confianza
                   </p>
                 </div>
-              </div>
+              </div> */}
+              <img src="/hero-img.webp" className="object-fill" alt="" />
             </div>
           </div>
         </div>

@@ -49,7 +49,7 @@ export default function Modules() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4 text-balance">
-            Programa Completo de 8 Semanas
+            Programa Completo de 6 días
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
             Cada módulo está diseñado para llevarte de principiante a inversor competente

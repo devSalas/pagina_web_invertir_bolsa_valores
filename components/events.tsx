@@ -11,7 +11,7 @@ export default function Events() {
       time: "6:00 PM - 8:30 PM",
       location: "Online en vivo",
       attendees: 245,
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=300&fit=crop",
+      image: "/pichanga.jpg",
       type: "Competencia",
     },
     {
@@ -23,7 +23,7 @@ export default function Events() {
       time: "7:00 PM - 9:00 PM",
       location: "Online en vivo",
       attendees: 180,
-      image: "https://images.unsplash.com/photo-1597933904235-a39ec6f5d3fe?w=500&h=300&fit=crop",
+      image: "/analisis-finnaciero.webp",
       type: "Masterclass",
     },
     {
@@ -35,7 +35,7 @@ export default function Events() {
       time: "6:30 PM - 8:30 PM",
       location: "Online en vivo",
       attendees: 156,
-      image: "https://images.unsplash.com/photo-1554224311-beab60cd8085?w=500&h=300&fit=crop",
+      image: "/diversificacion.jpg",
       type: "Taller",
     },
   ]
@@ -124,7 +124,7 @@ export default function Events() {
             <p className="text-muted-foreground">Participantes este año</p>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-accent mb-2">$50K+</div>
+            <div className="text-3xl md:text-4xl font-bold text-accent mb-2">S/2K+</div>
             <p className="text-muted-foreground">Premios en competencias</p>
           </div>
         </div>
