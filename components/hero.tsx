@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, TrendingUp } from "lucide-react"
+import Image from "next/image"
 
 export default function Hero() {
   return (
@@ -50,24 +51,16 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Visual */}
-          <div className="relative h-96 sm:h-[500px]">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl"></div>
-            <div className="absolute top-8 right-8 w-48 h-48 bg-accent/10 rounded-full blur-3xl"></div>
-            <div className="absolute -bottom-8 left-8 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
-
-            <div className="relative h-full flex items-center justify-center">
-              <div className="text-center">
-                <div className="inline-block p-8 bg-card rounded-2xl border border-border shadow-lg">
-                  <div className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                    📈
-                  </div>
-                  <p className="text-sm text-foreground/60 mt-2">
-                    Empieza a invertir <br /> con confianza
-                  </p>
-                </div>
-              </div>
-            </div>
+          {/* Right Visual - Replaced gradient blobs with professional investment/trading image */}
+          <div className="relative h-96 sm:h-[500px] rounded-2xl overflow-hidden shadow-xl">
+            <Image
+              src="/professional-stock-trader-analyzing-financial-char.jpg"
+              alt="Trading profesional en bolsa de valores"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent"></div>
           </div>
         </div>
       </div>
